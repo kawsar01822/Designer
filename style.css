@@ -1,0 +1,123 @@
+body{
+	margin:0px;
+	padding:0px;
+	font-family: Georgia, Times, "Times New Roman", serif;
+}
+
+.header{
+	padding-top:45px;
+	padding-bottom:50px;
+}
+
+.header p{
+	color:#444343;
+	font-size:18px;
+}
+
+li{
+	display: inline;
+	padding-right: 10px;
+	margin-left: 1px;
+	/*border: 2px solid black;*/
+}
+
+.welcome{
+	color:#444343;
+	padding-bottom:60px;
+}
+
+input[type=text],input[type=email]{
+	padding:10px 40px !important;
+	height:50px;
+	background-color:#ebebeb;
+}
+
+input[type=text]::placeholder,input[type=email]::placeholder{
+	font-style: italic;
+}
+
+form img{
+	position:relative;
+	bottom:32px;
+	left:15px;
+}
+
+#area, .btn{
+	background-color:#ebebeb;
+}
+
+.btn{
+	color:#7f7f7f;
+	border:2px solid #fbfbfb;
+	padding:10px 20px;
+}
+
+hr{
+	width:100%;
+	border-top:1px solid #c7c7c7;
+}
+
+
+#carouselExampleIndicators2{
+	background-color:#000000aa;
+	width:81%;
+	position:absolute;
+	margin-left:4px;
+	margin-top:-101px;
+	color:#fff;
+}
+
+@media only screen and (min-width:1024px) and (max-width:1439px){
+	#carouselExampleIndicators2{
+		background-color:#000000aa;
+		width:92%;
+		position:absolute;
+		margin-left:4px;
+		margin-top:-101px;
+		color:#fff;
+	}
+}
+
+@media only screen and (min-width:768px) and (max-width:1023px){
+	#carouselExampleIndicators2{
+		background-color:#000000aa;
+		width:90%;
+		position:absolute;
+		margin-left:3px;
+		margin-top:-149px;
+		color:#fff;
+	}
+}
+
+@media only screen and (min-width:425px) and (max-width:767px){
+	#carouselExampleIndicators2{
+		background-color:#000000aa;
+		width:92%;
+		position:absolute;
+		margin-left:2px;
+		margin-top:-125px;
+		color:#fff;
+	}
+}
+
+@media only screen and (min-width:375px) and (max-width:424px){
+	#carouselExampleIndicators2{
+		background-color:#000000aa;
+		width:91%;
+		position:absolute;
+		margin-left:2px;
+		margin-top:-124px;
+		color:#fff;
+	}
+}
+
+@media only screen and (min-width:320px) and (max-width:374px){
+	#carouselExampleIndicators2{
+		background-color:#000000aa;
+		width:89%;
+		position:absolute;
+		margin-left:3px;
+		margin-top:-170px;
+		color:#fff;
+	}
+}
